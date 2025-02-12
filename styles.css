@@ -29,7 +29,7 @@
     justify-content: center;
     position: relative;
     min-height: fit-content;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     margin-top: 5%;
 }
 
@@ -90,6 +90,27 @@
         border-radius: 5px;
         border: 1px solid #ccc;
     }
+    .backgroudImg{
+        background-image: url('./Assect/Section.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 11vh;
+        margin-top: 0px;
+    }
+      .hero {
+        background-image: url('./Assect/C19\ 1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        color: black;
+        width: auto;
+        font-size: x-small;
+        padding-left: 10%;
+    }
 }
 
 
@@ -114,11 +135,80 @@
         border-radius: 5px;
         border: 1px solid #ccc;
     }
+    .backgroudImg{
+        background-image: url('./Assect/Section.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 11vh;
+        margin-top: 0px;
+    }
+    .hero {
+        background-image: url('./Assect/C19\ 1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        color: black;
+        width: auto;
+        font-size: x-small;
+        padding-left: 10%;
+    }
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        min-height: fit-content;
+        /* min-height: 100vh; */
+        margin-top: 5%;
+        font-size: x-small;
+    }
+    .footerBackgroundImg{
+        background-image: url('./Assect/footer.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 14vh;
+        margin-top:-2%;
+    }
 }
 
 @media (max-width: 460px) {
     .input-select {
         width: 104% !important;
+    }
+    .backgroudImg{
+        background-image: url('./Assect/Section.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 11vh;
+        margin-top: 0px;
+    
+    }
+    .hero {
+        background-image: url('./Assect/C19\ 1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        color: black;
+        width: auto;
+        font-size: xx-small;
+        padding-left: 10%;
+    }
+    .footerBackgroundImg{
+        background-image: url('./Assect/footer.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 8vh;
+        margin-top:-2%;
     }
 }
 
