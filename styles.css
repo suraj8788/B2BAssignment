@@ -61,6 +61,19 @@
     gap: 50px;
 }
 
+@media (min-width: 1500px) {
+    .input-select {
+        width: 99% !important;
+    }
+    .input-company-size{
+        width: 96% !important;
+        padding: 12px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+}
+
 @media (max-width: 1024px) {
     .overlay {
         flex-direction: column; 
